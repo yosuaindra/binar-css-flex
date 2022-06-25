@@ -1,0 +1,80 @@
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 15%);
+    border: 2px solid #f0f0f0;
+    width: 334px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .desc{
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .desc h1{
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #032954;
+}
+
+.card .desc  h2{
+    margin-bottom: 64px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+    line-height: 140%;
+}
+
+.card .desc  p{
+    font-size: 14px;
+}
+
+.card .desc  span{
+    font-weight: 700;
+}
+
+/* latihan flex */
+
+.branch-container{
+    margin-top: 70px;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-card{
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
