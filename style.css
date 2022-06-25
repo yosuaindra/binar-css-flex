@@ -61,6 +61,11 @@ body{
 
 /* latihan flex */
 
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .branch-container{
     margin-top: 70px;
     display: flex;
