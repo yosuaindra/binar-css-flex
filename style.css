@@ -58,28 +58,3 @@ body{
 .card .desc  span{
     font-weight: 700;
 }
-
-/* latihan flex */
-
-.wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-.branch-container{
-    margin-top: 70px;
-    display: flex;
-    height: 300px;
-    width: 500px;
-    background-color: pink;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container-card{
-    width: 100px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
